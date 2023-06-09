@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(108,135,183);
+}   
+div a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.navbar{
+    border: 3px black solid;
+    border-radius: 7px;
+    display: flex;
+    position: fixed;
+}
+nav{
+    display: flex;
+}
+nav ul li{
+    padding-left: 40px;
+    margin: 10px;
+    width: 100px;
+
+}
+a.active,a:hover{
+    background-color: rgb(225,233,238);
+}
+nav ul li a{
+    padding: 10px 13px;
+    border-radius: 4px;
+}
+.logo{
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: 1100px;
+}
+button{
+    border-radius: 30px;
+    background-color: rgb(63,76,119);
+    border-color: rgb(63,76,119) solid;
+}
+button a:hover{
+    background-color: rgb(225,233,238);
+}
+.landing{
+    padding-top: 500px;
+}
