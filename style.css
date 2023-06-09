@@ -1,7 +1,10 @@
 body{
-    background-color: rgb(108,135,183);
+    background-image: url(./Images/FbUez3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center centre;
 }   
-div a{
+.navbar a{
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -29,7 +32,7 @@ nav ul li{
 
 }
 a.active,a:hover{
-    background-color: rgb(225,233,238);
+    background-color: rgb(81,78,161);
 }
 nav ul li a{
     padding: 10px 13px;
@@ -43,11 +46,30 @@ nav ul li a{
 button{
     border-radius: 30px;
     background-color: rgb(63,76,119);
-    border-color: rgb(63,76,119) solid;
+    border: 1px rgb(63,76,119) solid;
+    padding-left: 6px;
 }
 button a:hover{
-    background-color: rgb(225,233,238);
+    background-color: rgb(81,78,161);
 }
-.landing{
-    padding-top: 500px;
+section{
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+section .landing{
+    color: rgb(206,229,246);
+    position: relative;
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+section .landing p{
+    max-width: 100%;
+    width: fit-content;
 }
