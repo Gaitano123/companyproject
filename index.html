@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>westdealers</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="navbar">
@@ -17,48 +18,18 @@
         </div>
         <nav>
             <ul>
-                <li>
-                    <a class="active" href="">
-                        home
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        about
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        features
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        pages
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        blogs
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        team
-                    </a>
-                </li>
+                <li><a class="active" href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">features</a></li>
+                <li><a href="">pages</a></li>
+                <li><a href="">blogs</a></li>
+                <li><a href="">team</a></li>
             </ul>
-            <button class="log">
-                <a href="">
-                    login
-                </a>
-            </button>
-            <button class="sig">
-                <a href="">
-                    signin
-                </a>
-            </button>
         </nav>
+        <div class="nav_button">
+            <button class="log"><a href="">login</a></button>
+            <button class="sig"><a href="">signin</a></button>
+        </div>
     </div>
     <section>
         <div class="landing">
@@ -123,90 +94,38 @@
             </div>
         </section>
     </div>
-    <br class="part">
-    <div class="form">
-        <h2 class="form">REGISTER</h2>
-        <form action="">
-            <label for="">
-                Fist Name
-                <input type="text" placeholder="FirstName">
-            </label>
-            <label for="">
-                Middle Name
-                <input type="text" placeholder="MiddleName">
-            </label>
-            <br>
-            <br>
-            <br>
-            <label for="">
-                Last Name
-                <input type="text" placeholder="LastName">
-            </label>
-            <br>
-            <br>
-            <br>
-            <label for="">
-                Email
-                <input type="email" placeholder="Email">
-            </label>
-            <label for="">
-                Contact
-                <input type="number" placeholder="Contact">
-            </label>
-            <br>
-            <br>
-            <br>
-            <label for="">Gender
-                <select name="Gender" id="">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </label>
-            <label for="">
-                Date Of Birth
-                <input type="Date" placeholder="DOB">
-            </label>
-            <br>
-            <br>
-            <br>
-            <label for="">
-                Comment
-                <textarea name="text area" placeholder="TYPE YOUR COMMENTS HERE!"></textarea>
-            </label>
-        </form>
-        <br>
-        <br>
+    <div class="details_section">
+        <div id="form_input">
+            <h2 class="forming">REGISTER</h2>
+            <form action="">
+                <label for="">Fist Name:<input type="text" placeholder="FirstName"></label>
+                <label for="">Middle Name:<input type="text" placeholder="MiddleName"></label>
+                <label for="">Last Name:<input type="text" placeholder="LastName"></label>
+                <label for="">Email:<input type="email" placeholder="Email"></label>
+                <label for="">Contact:<input type="number" placeholder="Contact"></label>
+                <label for="">Gender:
+                    <select name="Gender" id="">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </label>
+                <label for="">Date Of Birth:<input type="Date" placeholder="DOB"></label>
+                <label for="">Comment:<textarea name="text area" placeholder="TYPE YOUR COMMENTS HERE!"></textarea></label>
+            </form>
+            <div class="butt">
+                <button class="submit"><a href="">SUBBMIT</a></button>
+            </div>
+        </div>
     </div>
-    <div class="butt">
-        <button class="submit"><a href="">
-            SUBBMIT</a>
-        </button>
-    </div>
-    <br>
     <footer>
         <div>
-            <a href="https://twitter.com/i/flow/login" target="_blank">
-                <img src="./icons/download (1).png" alt="">
-            </a>
-            <a href="https://www.facebook.com/login/" target="_blank">
-                <img src="./icons/download (2).png" alt="">
-            </a>
-            <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" target="_blank">
-                <img src="./icons/download (3).png" alt="">
-            </a>
-            <a href="https://contacts.google.com/" target="_blank">
-                <img src="./icons/download (4).png" alt="">
-            </a>
-            <a href="https://www.instagram.com/accounts/login/" target="_blank">
-                <img src="./icons/download.jpeg" alt="">
-            </a>
-            <a href="https://www.youtube.com/"target="_blank">
-                <img src="./icons/download.png" alt="">
-            </a>
-            <a href="https://www.google.com/maps/d/viewer?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ll=-0.023637169694847113%2C37.90619300000003&z=6" target="_blank">
-                <img src="./icons/download (5).png" alt="">
-            </a>
-        </div>
+        <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.google.com/maps/d/viewer?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ll=-0.023637169694847113%2C37.90619300000003&z=6" target="><i class="fa-solid fa-location-dot"></i></a>
     </footer>
 </body>
 </html>
